@@ -1,0 +1,37 @@
+@import url("http://tinyjs.com/files/projects/measurements-are-in-mm-unless-stated-otherwise/reset-fonts-grids.css");
+
+td, th{padding:3px 0;}
+table{
+	width:99%;
+	margin:15px auto;
+}
+/*tables*/
+.row1, .row2{
+	margin:2px 0;
+	border-bottom:3px solid #fff;
+}
+.row1{background:#f7f7f7;}
+.row2{background:#f9f9f9;}
+
+/*right align column data*/
+.row1 td, .row2 td{text-align:right;}
+/*fix width for the titles*/
+.row1 th, .row2 th{width:44%;}
+/*bolding*/
+.row1-hover, .row1-hover th, .row1-hover td, .row2-hover, .row2-hover td, tr.row2-hover th,
+.highlight, .highlight th, .highlight td{
+	font-weight:bold;	
+}
+/*bg highlight*/
+tr.row1-hover, .row1 .highlight, .row1 .highlight *{background:#EBEBEB;}
+tr.row2-hover, .row2 .highlight, .row2 .highlight *{background:#F1F1F1;}
+
+/*th styling*/
+.heading th.highlight{
+	background: #fff;
+}
+/*add border to head column*/
+tr.heading{	border-bottom:1px solid #E1E9EE;}
+tr.heading th{text-align:right;}
+/*fix the width of a table cell - stops it shifting over */
+.complex_table td{width:27%;}
